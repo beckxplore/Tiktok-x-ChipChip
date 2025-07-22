@@ -1,0 +1,30 @@
+{
+  "app_id": "chipchip_live_commerce",
+  "version": "1.0.0",
+  "name": "ChipChip Live Commerce",
+  "description": "Live shopping experience for Ethiopian TikTok users",
+  "icon": "https://your-domain.com/icon.png",
+  "entryPoint": {
+    "url": "https://your-domain.com/index.html",
+    "type": "webview"
+  },
+  "permissions": [
+    "storage",
+    "network",
+    "camera",
+    "location"
+  ],
+  "features": {
+    "payment": true,
+    "analytics": true,
+    "localization": true
+  },
+  "supported_languages": ["en", "am"],
+  "orientation": "portrait",
+  "theme": {
+    "primary_color": "#0070F3",
+    "secondary_color": "#FFB800"
+  },
+  "min_sdk_version": "1.0.0",
+  "target_sdk_version": "1.5.0"
+} 

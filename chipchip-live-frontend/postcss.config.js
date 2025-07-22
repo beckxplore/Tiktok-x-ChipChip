@@ -1,9 +1,9 @@
-// chipchip-live-frontend/postcss.config.js
 module.exports = {
   plugins: {
-    // use the new PostCSS plugin entrypoint:
+    // First load the new PostCSS plugin…
     '@tailwindcss/postcss': {},
-    // autoprefixer comes after tailwind
+    // …then Tailwind itself, then autoprefixer
+    tailwindcss: {},
     autoprefixer: {},
-  },
+  }
 }

@@ -10,3 +10,4 @@ out/
 
 # Environment files
 .env*
+next-env.d.ts

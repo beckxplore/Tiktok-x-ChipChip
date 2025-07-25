@@ -1,6 +1,6 @@
 # ChipChip Live Commerce - TikTok Jump Micro-App
 
-A fully functional, mobile-first TikTok Jump micro-app for live commerce, designed specifically for Ethiopian TikTok users. Built with React, TypeScript, and Tailwind CSS.
+A fully functional, mobile-first TikTok Jump micro-app for live commerce, designed specifically for Ethiopian TikTok users. The project now uses **Next.js** for both the frontend and backend, alongside TypeScript and Tailwind CSS.
 
 ## 🚀 Features
 
@@ -30,9 +30,8 @@ A fully functional, mobile-first TikTok Jump micro-app for live commerce, design
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React 18 + TypeScript
+- **Fullstack Framework**: Next.js 15 + TypeScript
 - **Styling**: Tailwind CSS with custom design system
-- **Build Tool**: Vite
 - **Testing**: Jest + React Testing Library
 - **Platform**: TikTok Jump SDK
 

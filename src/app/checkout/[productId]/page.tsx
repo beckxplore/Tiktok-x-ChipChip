@@ -23,13 +23,13 @@ export default function CheckoutPage() {
 
   useEffect(() => {
     axios
-      .get<Product>(`${process.env.NEXT_PUBLIC_CHIPCHIP_API_URL}/products/${productId}`)
+      .get<Product>(`/api/products/${productId}`)
       .then(res => setProduct(res.data))
       .catch(() => {});
   }, [productId]);
 
   const onSubmit = (data: FormData) => {
-    axios.post(`${process.env.NEXT_PUBLIC_CHIPCHIP_API_URL}/orders`, {
+    axios.post('/api/orders', {
       productCode: productId,
       ...data,
     });
